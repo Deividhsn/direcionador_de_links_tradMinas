@@ -25,6 +25,7 @@ body{
     height: max-content;
     width: 100%;
     background-color: var(--impotant-color);
+    background-image: url('/assets/img/teste6.png');
 
 }
 /*BIG-BOX*/
@@ -42,9 +43,7 @@ body{
     padding: 40px 20px;
     border-radius: 10px;
     /* box-shadow:1px 1px 10px 3px #15151593;  */
-    background-image: url('/assets/img/teste6.png');
-    background-repeat: no-repeat;
-    background-size:cover;
+   
     
 
 }

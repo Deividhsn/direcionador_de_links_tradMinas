@@ -25,7 +25,7 @@ body{
     height: max-content;
     width: 100%;
     background-color: var(--impotant-color);
-    background-image: url('/assets/img/teste6.png');
+    background-image: url('/assets/img/img_body.png');
 
 }
 /*BIG-BOX*/
@@ -88,13 +88,12 @@ body{
 }
 .list li{
     height: 50px;
-
     width: 100%;
     display: flex;
-    justify-content: center;
-    
-   
+    justify-content: center;  
 }
+
+
 .list li a{
     height: 100%;
     width: 100%;
@@ -106,13 +105,23 @@ body{
     border: solid 3px #0b4723;
     border-radius: 10px;
     gap: 10%;
-    position: relative;
-    
+    position: relative; 
+   
 }
 
+
 .list li a:hover{
-    background-color: #ffbb00a2;
+   
+    background-color: #ffbb00a2; 
+    height: 55px;
+    width: 99%;
+
 }
+
+
+
+
+
 .list li a i{
     display: flex;
     font-size: 2em;

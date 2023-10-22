@@ -1,0 +1,132 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* RESET PAGE */
+ *{
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none; 
+    font-family: 'Noto Sans', sans-serif; 
+    font-weight: 600;  
+} 
+/* ROOT COLORS */
+:root{
+    --primary-bck-color:#f4f4f4;
+    --secundary-bck-color:#d1d1d1;
+    --primary-font-color:#151515;
+    --secondary-font-color:#5dac2f;
+    --impotant-color:#FFBD59;
+}
+
+/*BODY*/
+body{
+    
+    height: max-content;
+    width: 100%;
+    background-color: var(--impotant-color);
+
+}
+/*BIG-BOX*/
+.content{
+
+    width: 100%;
+    max-width: 500px;
+    height: max-content;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 35px;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow:1px 1px 10px 3px #15151593; 
+    background-image: url('/assets/img/teste6.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+
+}
+/* BOX-CONTENT */
+.logo{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000000;
+    gap: 30px;
+}
+
+.logo img{
+    height: 150px;
+    width: 250px;
+    border-radius: 20%;
+    filter: drop-shadow( 5px 2px 4px #151515ab); 
+}
+
+.logo div h4{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 800;
+    text-align: center;
+}
+.logo p{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+
+/*BOX-LIST*/   
+
+.list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 10px;
+}
+.list li{
+    height: 50px;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.list li a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;  
+    justify-content:center;
+    padding: 5%;
+    color: #000000;
+    border: solid 3px #0b4723;
+    border-radius: 10px;
+    gap: 10%;
+    position: relative;
+    
+}
+
+.list li a:hover{
+    background-color: #ffbb00a2;
+}
+.list li a i{
+    display: flex;
+    font-size: 2em;
+    position: absolute;
+    left: 10px;
+   
+}
+
+.list li a h4{
+    display: flex;
+    padding: 1px;
+    text-transform: capitalize;
+    
+}
+
+
